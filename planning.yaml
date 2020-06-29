@@ -1,0 +1,28 @@
+---
+actions:
+- description: "complete testing from Infile"
+  planning:
+  - type of commands
+    - configure
+    - list
+    - scan jobs (consume pending requets)
+  - ask to user what kind of proccess server will do
+    - Cluster request
+    - Sender request
+      - divide commands
+        - configure
+        - worker queue - it is not required more, there is a command like that.
+          > queue:work Start processing jobs on the queue as a daemon
+        - Sender
+        - open hook
+      - Type of message with format?
+        - application/json
+        - plain/text
+      - ...
+      - what is the message we are gona sent?
+      - How many package will it send?
+      - in case of failing do you want?
+        - ask you ever
+        - automatitly resolve problem if it is fixable
+      - any way can we communicate with you? (email, number phone or hook
+...
